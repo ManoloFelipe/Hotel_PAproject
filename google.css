@@ -1,0 +1,43 @@
+/* Tamaños recomendados para íconos */
+span.size-20 {
+  font-size: 20px;
+  line-height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.size-24 {
+  font-size: 24px;
+  line-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.size-40 {
+  font-size: 40px;
+  line-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.size-48 {
+  font-size: 48px;
+  line-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para fondo oscuro */
+.dark {
+  background: black;
+  color: rgba(255, 255, 255, 1);
+}
+
+.dark-inactive {
+  background: black;
+  color: rgba(255, 255, 255, 0.3);
+}

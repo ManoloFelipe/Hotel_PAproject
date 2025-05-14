@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuartos El Refugio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="google.css">
+</head>
+<body class="bg-gray-100 text-gray-800 transition-colors duration-300" id="pageBody">
+  <!-- Encabezado -->
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-700">Cuartos El Refugio</h1>
+    <div class="flex items-center space-x-4">
+      <nav class="space-x-4">
+        <a href="#comodidades" class="text-blue-600 hover:underline">Comodidades</a>
+        <a href="#precios" class="text-blue-600 hover:underline">Precios</a>
+        <a href="#reserva" class="text-blue-600 hover:underline">Reservar</a>
+      </nav>
+      <button id="darkModeToggle" class="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative bg-blue-200 h-64 flex items-center justify-center">
+    <h2 class="text-4xl text-black font-bold drop-shadow-md">Tu descanso, nuestro compromiso</h2>
+  </section>
+
+  <!-- Comodidades -->
+  <section id="comodidades" class="p-8 bg-white">
+    <h3 class="text-3xl font-semibold text-center mb-6">Comodidades</h3>
+    <div class="grid md:grid-cols-3 gap-6 text-center">
+      <div class="p-4 bg-gray-100 rounded-xl shadow">
+        <span class="material-symbols-outlined size-48">wifi</span>
+        <h4 class="text-xl font-bold mb-2">Wi-Fi Rápido</h4>
+        <p>Navega sin interrupciones en todas nuestras áreas.</p>
+      </div>
+      <div class="p-4 bg-gray-100 rounded-xl shadow">
+        <span class="material-symbols-outlined size-48">
+        bathroom
+        </span>
+        <h4 class="text-xl font-bold mb-2">Baño privado</h4>
+        <p>Privacidad y comodidad en cada habitación.</p>
+      </div>
+      <div class="p-4 bg-gray-100 rounded-xl shadow">
+        <span class="material-symbols-outlined size-48">
+        cleaning_services
+        </span>
+        <h4 class="text-xl font-bold mb-2">Limpieza diaria</h4>
+        <p>Tu espacio siempre limpio y acogedor.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Precios y rangos -->
+  <section id="precios" class="p-8">
+    <h3 class="text-3xl font-semibold text-center mb-6">Precios y Habitaciones</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow border border-blue-100">
+        <h4 class="text-xl font-bold mb-2">Habitación Básica</h4>
+        <p class="mb-2">Cama individual, ventilador, Wi-Fi</p>
+        <p class="text-blue-600 font-bold">Q100 / noche</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow border border-blue-100">
+        <h4 class="text-xl font-bold mb-2">Habitación Estándar</h4>
+        <p class="mb-2">Cama doble, TV, baño privado</p>
+        <p class="text-blue-600 font-bold">Q150 / noche</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow border border-blue-100">
+        <h4 class="text-xl font-bold mb-2">Habitación Premium</h4>
+        <p class="mb-2">Aire acondicionado, escritorio, vista</p>
+        <p class="text-blue-600 font-bold">Q200 / noche</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="text-center text-sm p-4 bg-gray-200">
+    © 2025 Cuartos El Refugio. Todos los derechos reservados.
+  </footer>
+
+  <!-- JavaScript para Modo Oscuro -->
+  <script src="dark-mode.js"></script>
+</body>
+</html>
